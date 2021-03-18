@@ -93,7 +93,7 @@ ul {
 	width: 100%;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-bottom: 21px;
 }
 .shape {
@@ -129,7 +129,7 @@ ul {
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 20px;
-	margin-bottom: 50px;
+	color: white;
 }
 
 /*section2*/
@@ -224,12 +224,6 @@ textarea::placeholder {
 	margin-left: 132px;
 	margin-top: 196px;
 }
-.team {
-	border-radius: 50px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
 .name {
 	font-size: 35px;
 	color: #2F365C;
@@ -241,9 +235,27 @@ textarea::placeholder {
 	font-size: 25px;
 	color: #45CFEA;
 	font-family: "ArchyEDT-Bold", sans-serif;
+	margin-bottom: 10px;
 }
 .description {
 	width: 300px;
 	text-align: center;
 	font-family: "DejaVu Sans", sans-serif;
+}
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 352px;
+	width: 100%;
+}
+.three-members {
+	display: flex;
+	max-width: 1124px;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.team-img {
+	border-radius: 50px;
 }
