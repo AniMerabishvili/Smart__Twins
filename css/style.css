@@ -1,0 +1,248 @@
+.bg-image {
+	background-image: url(../img/header-bg.png);
+}
+.logo {
+	width: 100px;
+}
+.nav-div {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+ul {
+	display: flex;
+}
+.li-a {
+	color: #2F365C;
+	font-family: "DejaVu Sans", sans-serif;
+	font-size: 21.2px;
+	margin-right: 30px;
+}
+.active {
+	color: #45CFEA;
+}
+.title-h1 {
+	color: #2F365C;
+	font-size: 70px;
+	font-family: 'Fredoka One', cursive;
+	margin-left: 132px;
+	margin-top: 196px;
+}
+.paragraph-1 {
+	font-family: "DejaVu Sans", sans-serif;
+	font-size: 30px;
+	color: #2F365C;
+	width: 450px;
+	margin-left: 132px;
+	margin-top: 30.58px;
+}
+.button1 {
+	background-color: #45CFEA;
+	border-radius: 30px;
+	max-width: 150px;
+	width: 100%;
+	height: 58px;
+	color: white;
+	font-family: "DejaVu Sans", sans-serif;
+	border: none;
+	margin-left: 139px;
+	margin-top: 30.58px;
+	font-size: 15px;
+}
+.button1:focus {
+	outline: none;
+}
+.content-div {
+	display: flex;
+}
+.mainvector {
+	margin-left: 20px;
+	max-width: 690px;
+	width: 100%;
+	margin-top: 117px;
+}
+
+/*section1*/
+
+.sec-title {
+	color: #2F365C;
+	font-size: 60px;
+	font-family: "ArchyEDT-Bold", sans-serif;
+	
+}
+.title-div {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+
+}
+.box {
+	max-width: 360px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 30px;
+}
+.class="three-box" {
+	display: flex;
+}
+.three-box {
+	display: flex;
+	max-width: 1124px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 21px;
+}
+.shape {
+	background-color: #285575;
+	max-width: 168px;
+	width: 100%;
+	height: 152px;
+	border-radius: 42% 58% 50% 50% / 42% 32% 68% 58% ;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: center;
+}
+.service-h3 {
+	font-size: 35px;
+	color: #2F365C;
+	font-family: "ArchyEDT-Bold", sans-serif;
+	margin-bottom: 15px;
+}
+.services-p {
+	font-family: "DejaVu Sans", sans-serif;
+	color: #2F365C;
+	font-size: 17px;
+	max-width: 246px;
+	width: 100%;
+	text-align: center;
+}
+.icon {
+	max-width: 100px;
+	width: 100%;
+}
+.button2 {
+	max-width: 150px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+/*section2*/
+.three-project {
+	display: flex;
+	max-width: 1124px;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+.little-box {
+	position: relative;
+}
+.project {
+	max-width: 352px;
+	width: 100%;
+	height: 352px;
+	border-radius: 50px;
+}
+.bg-div {
+	border-radius: 50px;
+	background-color: #285575;
+	max-width: 352px;
+	width: 100%;
+	height: 352px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	z-index: -1;
+}
+.bg-div2 {
+	background-color:  #45CFEA
+}
+/*form*/
+.textarea {
+	max-width: 536px;
+	width: 100%;
+	height: 272px;
+	background-color: #EFEFEF;
+	border-radius: 50px;
+	outline: none;  
+	color: 808080;
+	font-family: "DejaVu Sans", sans-serif;
+	padding-left: 30px;
+	padding-top: 30px;
+	border: none;
+}
+input {
+	max-width: 536px;
+	width: 100%;
+	height: 80px;
+	background-color: #EFEFEF;
+	font-family: "DejaVu Sans", sans-serif;
+	padding-left: 43px;
+	border-radius: 56px;
+	border: none;
+	margin-left: 16px;
+	color: 808080;
+}
+input:focus {
+	outline: none;
+}
+input:nth-child(3),
+input:nth-child(2) {
+	margin-top: 16px;
+}  {
+	margin-top: 16px;
+}
+input::placeholder {
+	color: #285575;
+	font-size: 15px;
+}
+textarea::placeholder {
+	color: #285575;
+	font-size: 20px;
+}
+
+.formdiv {
+	display: flex;
+	max-width: 1088px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/*About us*/
+.about-h1 {
+	color: #2F365C;
+	font-size: 70px;
+	font-family: "ArchyEDT-Bold", sans-serif;
+	margin-left: 132px;
+	margin-top: 196px;
+}
+.team {
+	border-radius: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.name {
+	font-size: 35px;
+	color: #2F365C;
+	font-family: "ArchyEDT-Bold", sans-serif;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.profession {
+	font-size: 25px;
+	color: #45CFEA;
+	font-family: "ArchyEDT-Bold", sans-serif;
+}
+.description {
+	width: 300px;
+	text-align: center;
+	font-family: "DejaVu Sans", sans-serif;
+}
