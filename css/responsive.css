@@ -1,0 +1,62 @@
+@media (max-width: 480px) {
+	nav {
+		display: none;
+	}
+	.hed-icons {
+		display: none;
+	}
+	.fa-bars {
+		display: block;
+	}
+	.content-div {
+		flex-wrap: wrap;
+	}
+	.hed-content {
+		margin: auto;
+		margin-top: 150px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+	.title-home {
+		font-size: 60px;
+	}
+	.paragraph-1 {
+		font-size: 20px;
+		text-align: center;
+		width: 320px;
+	}
+	.mainvector {
+		margin-left: 10px;
+	}
+	.three-box {
+		flex-wrap: wrap;
+	}
+	.button1 {
+		width: 150px;
+	}
+	.mainvector {
+		width: 450px;
+		margin-top: 80px;
+	}
+	.three-box {
+		margin-left: 35px;
+	}
+	.project-box {
+		margin-bottom: 70px;
+	}
+	.pro-box {
+		margin-bottom: 0px;
+	}
+	.formdiv {
+		display: flex;
+		flex-wrap: wrap;
+		width: 400px;
+		margin: 0 auto;
+	}
+	input {
+		margin-left: 0;
+		margin-top: 16px;
+	}
+}
