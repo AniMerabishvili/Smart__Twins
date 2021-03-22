@@ -4,7 +4,8 @@
 	background-repeat: no-repeat;
 }
 .logo {
-	width: 80px;
+	max-width: 80px;
+	width: 100%;
 }
 .nav-div {
 	display: flex;
@@ -34,7 +35,6 @@ ul {
 .active {
 	color: #45CFEA;
 }
-
 /*icons */
 .icons-wraper {
 	display: flex;
@@ -55,12 +55,12 @@ ul {
 	top: 0;
 	right: 100%;
 	background-color: blue;
-	width: 250px;
+	max-width: 250px;
+	width: 100%;
 	justify-content: center;
 	align-items: center;
 }
 .hed-content {
-	margin-left: 132px;
 	margin-top: 196px;
 }
 
@@ -68,9 +68,12 @@ ul {
 	color: #2F365C;
 	font-size: 70px;
 	font-family: 'Fredoka One', cursive;
+	white-space: nowrap;
 }
-.hed-content {
-	margin-left: 132px;
+.content-div {
+	max-width: 1124px;
+	width: 100%;
+	margin: 0 auto;
 }
 .paragraph-1 {
 	font-family: "DejaVu Sans", sans-serif;
@@ -98,6 +101,7 @@ ul {
 }
 .content-div {
 	display: flex;
+	/*flex-wrap: wrap;*/
 }
 .mainvector {
 	margin-left: 20px;
@@ -134,9 +138,7 @@ ul {
 	justify-content: center;
 	padding: 30px;
 }
-.class="three-box" {
-	display: flex;
-}
+
 .three-box {
 	display: flex;
 	max-width: 1124px;
@@ -145,6 +147,7 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 21px;
+	flex-wrap: wrap;
 }
 .shape {
 	background-color: #285575;
@@ -191,7 +194,7 @@ ul {
 	width: 100%;
 	margin: 0 auto;
 	justify-content: space-around;
-	flex-wrap: wrap;
+	flex-wrap: wrap!important;
 }
 .second {
 	margin-top: 
@@ -303,7 +306,7 @@ textarea::placeholder {
 	color: #2F365C;
 	font-size: 70px;
 	font-family: "ArchyEDT-Bold", sans-serif;
-	margin-left: 132px;
+	/*margin-left: 132px;*/
 	margin-top: 196px;
 }
 .name {
@@ -320,7 +323,8 @@ textarea::placeholder {
 	margin-bottom: 10px;
 }
 .description {
-	width: 300px;
+	max-width: 300px;
+	width: 100%;
 	text-align: center;
 	font-family: "DejaVu Sans", sans-serif;
 }
@@ -360,7 +364,8 @@ textarea::placeholder {
 .contact-shape {
 	background-color: #45CFEA;
 	border-radius: 35px;
-	width: 675px;
+	max-width: 675px;
+	width: 100%;
 	height: 70px;
 	display: flex;
 	margin-bottom: 55px;
