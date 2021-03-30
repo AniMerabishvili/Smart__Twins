@@ -3,6 +3,12 @@
 		max-width: 650px;
 		width: 100%;
 	}
+	.three-box {
+		justify-content: center;
+	}
+	.about-content {
+		margin-top: 250px;
+    }
 	.paragraph-1 {
 		font-size: 25px;
 	}
@@ -13,9 +19,16 @@
 		max-width: 300px;
 		width: 100%;
 	}
+	.hed-content1 {
+		max-width: 300px;
+		width: 100%;
+	}
 	.project-box {
 		max-width: 330px;
 		width: 100%;
+	}
+	.three-members {
+		flex-direction: column;
 	}
 	.formdiv {
 		max-width: 1000px;
@@ -37,6 +50,7 @@
 		max-width: 450px;
 		width: 100%;
 		object-fit: contain;
+		margin-top: 50px;
 	}
 	.content-div {
 		max-width: 850px;
@@ -45,9 +59,11 @@
 	}
 	.title-home {
 		white-space: nowrap;
-	}
-	.title-home {
 		font-size: 60px;
+	}
+	.about-h1 {
+		font-size: 60px;
+		white-space: nowrap;
 	}
 	.paragraph-1 {
 		font-size: 25px;
@@ -72,7 +88,7 @@
 		width: 100%;
 	}
 	.input-wraper {
-		max-width: 400px;
+		max-width: 500px;
 		width: 100%;
 	}
 	.formdiv {
@@ -113,14 +129,25 @@
 	.hed-icons {
 		/*display: none;*/
 	}
-	li {
+	.navul {
 		display: none;
+	}
+	.navul.open-menu {
+		display: block;
+	}
+	.bar-icon {
+		display: block!important;
+		cursor: pointer;
 	}
 	.content-div {
 		flex-wrap: wrap;
 		justify-content: center;
 	}
 	.title-home {
+		font-size: 70px;
+    	text-align: center;
+	}
+	.about-h1 {
 		font-size: 70px;
     	text-align: center;
 	}
@@ -131,9 +158,9 @@
 		flex-wrap: wrap;
 		justify-content: center;
 	}
-	.button1 {
+	/*.button1 {
 		width: 150px;
-	}
+	}*/
 	.paragraph-1 {
 		font-size: 30px;
 		text-align: center;
@@ -165,9 +192,6 @@
 	}
 }
 @media (max-width: 480px) {
-	nav {
-		display: none;
-	}
 	.mainvector {
 		max-width: 450px;
 		width: 100%;
@@ -177,11 +201,12 @@
 	.hed-icons {
 		display: none;
 	}
-	.fa-bars {
-		display: block;
-	}
 	.content-div {
 		flex-wrap: wrap;
+	}
+	.bar-icon {
+		display: block!important;
+		cursor:pointer;
 	}
 	.hed-content {
 		margin: auto;
@@ -234,6 +259,9 @@
 }
 @media (max-width: 380px) {
 	.title-home {
+		font-size: 45px;
+	}
+	.about-h1 {
 		font-size: 45px;
 	}
 	.sec-title {

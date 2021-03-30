@@ -6,7 +6,6 @@
 	<meta name="description" content="Free Web tutorials">
 	<meta name="keywords" content="HTML, CSS, JavaScript">
 	<meta name="author" content="John Doe">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -15,31 +14,30 @@
 	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css">
 	<script src="https://kit.fontawesome.com/cf66b15f2f.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
 	<header class="bg-image">
-		<div class="header">
+		<nav class="header">
 			<div class="nav-div">
-				<a href="index.html"> <img src="img/logo.svg" class="logo" alt="logo"> </a>
-				<nav>
-					<ul id="menu">
-						<li> <a href="index.html" class="li-a active"> მთავარი </a> </li>
-						<li> <a href="About us.html" class="li-a"> ჩვენს შესახებ </a> </li>
-						<li> <a href="services.html" class="li-a"> სერვისები </a> </li>
-						<li> <a href="projects.html" class="li-a"> პროექტები </a> </li>
-						<li> <a href="contact.html" class="li-a"> კონტაქტი </a> </li>
-					</ul>
-				</nav>
-				<div class="icons-wraper" id="socicon">
-					<div class="hed-icons">
-						<i class="fas fa-user-circle icon"></i>
-						<i class="fas fa-heart icon"></i>
-					</div>
-					<i class="fas fa-bars icon" id="burger-menu"></i>
+				<ul>
+					<a href="index.html"> <img src="img/logo.svg" class="logo" alt="logo"> </a>
+				</ul>
+				<ul id="menu" class="navul">
+					<li> <a href="index.html" class="li-a active"> მთავარი </a> </li>
+					<li> <a href="About us.html" class="li-a"> ჩვენს შესახებ </a> </li>
+					<li> <a href="services.html" class="li-a"> სერვისები </a> </li>
+					<li> <a href="projects.html" class="li-a"> პროექტები </a> </li>
+					<li> <a href="contact.html" class="li-a"> კონტაქტი </a> </li>
+				</ul>
+				<ul class="icons-wraper hed-icons" id="socicon">
+					<i class="fas fa-user-circle icon"></i>
+					<i class="fas fa-heart icon"></i>
+				</ul>
+				<div id="burger-menu">
+					<i class="fas fa-bars bar-icon"></i>
 				</div>
 			</div>
-		</div>
+		</nav>
 		<div class="content-div">
 			<div class="hed-content">
 				<h1 class="title-home"> Smart Twins </h1>

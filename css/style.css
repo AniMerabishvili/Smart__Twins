@@ -19,7 +19,7 @@
 .active-header {
 	background-color: #E6E7E8 /*#D6E8F2*/;
 }
-ul {
+.navul {
 	display: flex;
 }
 .li-a {
@@ -47,6 +47,12 @@ ul {
 	color: #2F365C;
 	margin-right: 20px;
 }
+.bar-icon {
+	font-size: 30px;
+	color: #2F365C;
+	margin-right: 20px;
+	display: none!important;
+}
 .bar {
 	display: none;
 }
@@ -71,9 +77,11 @@ ul {
 	white-space: nowrap;
 }
 .content-div {
-	max-width: 1124px;
+	max-width: 1150px;
 	width: 100%;
 	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
 }
 .paragraph-1 {
 	font-family: "DejaVu Sans", sans-serif;
@@ -104,7 +112,7 @@ ul {
 	/*flex-wrap: wrap;*/
 }
 .mainvector {
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 	max-width: 690px;
 	width: 100%;
 	margin-top: 117px;
@@ -269,8 +277,8 @@ input {
 	padding-left: 43px;
 	border-radius: 15px;
 	border: none;
-	margin-left: 16px;
 	color: 808080;
+	margin-left: 16px;
 }
 input:focus {
 	outline: none;
@@ -288,11 +296,11 @@ textarea::placeholder {
 	font-size: 15px;
 	font-family: "DejaVu Sans", sans-serif;
 }
-
 .formdiv {
 	display: flex;
 	max-width: 1088px;
 	width: 100%;
+	justify-content: space-between;
 	margin: 0 auto; 
 	padding-bottom: 50px;
 }
@@ -306,7 +314,7 @@ textarea::placeholder {
 	color: #2F365C;
 	font-size: 70px;
 	font-family: "ArchyEDT-Bold", sans-serif;
-	margin-top: 196px;
+	white-space: nowrap;
 }
 .name {
 	font-size: 35px;
@@ -344,10 +352,6 @@ textarea::placeholder {
 .team-img {
 	border-radius: 50px;
 }
-.title-h1 {
-	margin-top: 250px;
-}
-
 
 /*project page*/
 .sami-project {
