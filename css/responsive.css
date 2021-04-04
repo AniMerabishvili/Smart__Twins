@@ -6,6 +6,9 @@
 	.three-box {
 		justify-content: center;
 	}
+	.team {
+		margin-bottom: 30px;
+	}
 	.about-content {
 		margin-top: 250px;
     }
@@ -29,6 +32,9 @@
 	}
 	.three-members {
 		flex-direction: column;
+		margin: 0 auto;
+    	max-width: 352px;
+    	width: 100%;
 	}
 	.formdiv {
 		max-width: 1000px;
@@ -50,7 +56,6 @@
 		max-width: 450px;
 		width: 100%;
 		object-fit: contain;
-		margin-top: 50px;
 	}
 	.content-div {
 		max-width: 850px;
@@ -123,16 +128,13 @@
 	}
 }
 @media (max-width: 865px) {
-	.icons-wraper {
-		display: none;
-	}
 	.hed-icons {
-		/*display: none;*/
+		display: none;
 	}
 	.navul {
 		display: none;
 	}
-	.navul.open-menu {
+	.navigation.open-menu {
 		display: block;
 	}
 	.bar-icon {
@@ -157,6 +159,11 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+	.three-members {
+		margin: 0 auto;
+    	max-width: 352px;
+    	width: 100%;
 	}
 	/*.button1 {
 		width: 150px;
@@ -190,6 +197,7 @@
 	textarea {
 		margin-bottom: 16px;
 	}
+
 }
 @media (max-width: 480px) {
 	.mainvector {
@@ -256,6 +264,22 @@
 	.sec-title {
 		font-size: 50px;
 	}
+	.about-h1 {
+		font-size: 50px;
+	}
+	.contact-h3 {
+		font-size: 20px;
+	}
+	.cont {
+		max-width: 371px;
+		width: 100%;
+	}
+}
+@media (max-width: 400px) {
+	.cont {
+		max-width: 325px;
+		width: 100%;
+	}
 }
 @media (max-width: 380px) {
 	.title-home {
@@ -266,5 +290,26 @@
 	}
 	.sec-title {
 		font-size: 45px;
+	}
+	.team-img {
+		max-width: 300px;
+		width: 100%;
+	}
+	.sec-title {
+		font-size: 35px;
+	}
+	.name {
+		font-size: 32px;
+	}
+}
+@media (max-width: 350px) {
+	.contact-h3 {
+		font-size: 15px;
+	}
+}
+@media (max-width: 320px) {
+	.team-img {
+		max-width: 250px;
+		width: 100%;
 	}
 }

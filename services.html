@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/dejavu-sans/css/dejavu-sans.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
 		<div class="nav-div">
 			<a href="index.html"> <img src="img/logo.svg" class="logo" alt="logo"> </a>
 			<nav>
-				<ul>
+				<ul class="navul">
 					<li> <a href="index.html" class="li-a"> მთავარი </a> </li>
 					<li> <a href="About us.html" class="li-a"> ჩვენს შესახებ </a> </li>
 					<li> <a href="services.html" class="li-a active"> სერვისები </a> </li>
@@ -27,13 +28,22 @@
 					<li> <a href="contact.html" class="li-a"> კონტაქტი </a> </li>
 				</ul>
 			</nav>
+			<div class="icons-wraper hed-icons" id="socicon">
+				<i class="fas fa-user-circle icon"></i>
+				<i class="fas fa-heart icon"></i>
+			</div>
+			<div id="burger-menu">
+				<i class="fas fa-bars bar-icon"></i>
+			</div>
 		</div>
 		<div class="content-div">
-			<div>
+			<div class="hed-content">
 				<h1 class="about-h1 title-h1"> სერვისები </h1>
 				<p class="paragraph-1"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის </p>
 			</div>
-			<img class="mainvector" src="img/services.svg" alt="Working for website">
+			<div>
+				<img class="mainvector mainvector1" src="img/services.svg" alt="Working for website">
+			</div>
 		</div>
 	</header>
 	<section>
@@ -41,51 +51,47 @@
 			<h2 class="sec-title"> სერვისები </h2>
 		</div>
 		<div class="box-wraper">
-			<div class="three-box">
-				<div class="box">
-					<div class="shape">
-						<img src="img/Graphic-Design.svg" alt="Graphic-Design" class="icon"> 
-					</div>
-					<h3 class="service-h3"> გრაფიკული დიზაინი </h3>
-					<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
+			<div class="box">
+				<div class="shape">
+					<img src="img/Graphic-Design.svg" alt="Graphic-Design" class="icon"> 
 				</div>
-				<div class="box">
-					<div class="shape">
-						<img src="img/web-developement.svg" alt="web-developement" class="icon"> 
-					</div>
-					<h3 class="service-h3">  ვებ დეველოპმენტი </h3>
-					<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
-				</div>
-				<div class="box">
-					<div class="shape">
-						<img src="img/Digital-Marketing.svg" alt="Digital-Marketing" class="icon"> 
-					</div>
-					<h3 class="service-h3"> ციფრული მარკეტინგი </h3>
-					<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
-				</div>
+				<h3 class="service-h3"> გრაფიკული დიზაინი </h3>
+				<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
 			</div>
-			<div class="three-box">
-				<div class="box">
-					<div class="shape">
-						<img src="img/Graphic-Design.svg" alt="Graphic-Design" class="icon"> 
-					</div>
-					<h3 class="service-h3"> სოციალური </h3>
-					<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
+			<div class="box">
+				<div class="shape">
+					<img src="img/web-developement.svg" alt="web-developement" class="icon"> 
 				</div>
-				<div class="box">
-					<div class="shape">
-						<img src="img/web-developement.svg" alt="web-developement" class="icon"> 
-					</div>
-					<h3 class="service-h3"> UI&UX დიზაინი </h3>
-					<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
+				<h3 class="service-h3">  ვებ დეველოპმენტი </h3>
+				<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
+			</div>
+			<div class="box">
+				<div class="shape">
+					<img src="img/Digital-Marketing.svg" alt="Digital-Marketing" class="icon">
 				</div>
-				<div class="box">
-					<div class="shape">
-						<img src="img/Digital-Marketing.svg" alt="Digital-Marketing" class="icon"> 
-					</div>
-					<h3 class="service-h3"> მედიაქოფირაითინგი </h3>
-					<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
+				<h3 class="service-h3"> ციფრული მარკეტინგი </h3>
+				<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
+			</div>
+			<div class="box">
+				<div class="shape">
+					<img src="img/Graphic-Design.svg" alt="Graphic-Design" class="icon"> 
 				</div>
+				<h3 class="service-h3"> სოციალური </h3>
+				<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
+			</div>
+			<div class="box">
+				<div class="shape">
+					<img src="img/web-developement.svg" alt="web-developement" class="icon"> 
+				</div>
+				<h3 class="service-h3"> UI&UX დიზაინი </h3>
+				<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
+			</div>
+			<div class="box">
+				<div class="shape">
+					<img src="img/Digital-Marketing.svg" alt="Digital-Marketing" class="icon">
+				</div>
+				<h3 class="service-h3"> მედიაქოფირაითინგი </h3>
+				<p class="services-p"> ჩვენ გთავაზობთ ბევრ, საინტერესო ციფრულ პროდუქტს, რომელიც თქვენს კომპანიას წარმატებულს გახდის</p>
 			</div>
 		</div>
 		<div class="button2">
