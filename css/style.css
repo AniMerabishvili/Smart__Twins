@@ -46,6 +46,10 @@
 	font-size: 30px;
 	color: #2F365C;
 	margin-right: 20px;
+	transition: 0.3s linear;
+}
+.icon:hover {
+	color: #45CFEA;
 }
 .bar-icon {
 	font-size: 30px;
@@ -232,7 +236,7 @@
 	position: relative;
 }
 .project {
-	max-width: 352px;
+	max-width: 400px;
 	width: 100%;
 	height: 352px;
 	border-radius: 50px;
@@ -422,4 +426,15 @@ footer {
 .white {
 	color: white;
 	margin-right: 20px;
+}
+.footer-div {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.contact-icon {
+	transition: 0.3s linear;
+}
+.contact-icon:hover {
+	color: #45CFEA;
 }
