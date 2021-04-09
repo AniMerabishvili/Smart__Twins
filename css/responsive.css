@@ -15,8 +15,14 @@
 	.paragraph-1 {
 		font-size: 25px;
 	}
+	.button2 {
+		text-align: center;
+	}
 	.content-div {
 		justify-content: center;
+		align-items: flex-start;
+		padding-right: 50px;
+		padding-left: 50px;
 	}
 	.hed-content {
 		max-width: 300px;
@@ -80,9 +86,8 @@
 	.service-h3 {
 		white-space: nowrap;
 	}
-	.project-box {
-		max-width: 280px;
-		width: 100%;
+	.project-parent {
+		flex-wrap: wrap;
 	}
 	.one-project {
 		white-space: nowrap;
@@ -131,15 +136,18 @@
 	.hed-icons {
 		display: none;
 	}
-	.navul {
+	.bar-icon {
+		display: block!important;
+	}
+	.navigation {
 		display: none;
 	}
 	.navigation.open-menu {
-		display: block;
-	}
-	.bar-icon {
 		display: block!important;
-		cursor: pointer;
+	}
+	.nav-div {
+		display: flex;
+		align-items: center;
 	}
 	.content-div {
 		flex-wrap: wrap;
@@ -164,6 +172,9 @@
 		margin: 0 auto;
     	max-width: 352px;
     	width: 100%;
+	}
+	.top-text {
+		margin-top: 190px;
 	}
 	/*.button1 {
 		width: 150px;

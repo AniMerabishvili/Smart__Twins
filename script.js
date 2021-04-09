@@ -15,4 +15,11 @@ document.getElementById('buttonSend').addEventListener('click', function() {
 $("#burger-menu").on("click", function(){
     $("#menu").toggleClass("open-menu");
     $("#socicon").toggleClass("open-socicon");
-  })  
+})  
+
+const toggleButton = document.getElementByClassName('toggle-button')[0]
+const navigation = document.getElementByClassName('navigation')[0]
+
+toggleButton.addEventListener('click', () => {
+    navigation.classList.toggle('active')
+})
